@@ -126,7 +126,7 @@ const stayInMyHead = {
 let sentence = "I'm cool";
 let sentenceTwo = "I'm cool too";
 
-const fourthOfJulyPost = {
+const FourthOfJulyPost = {
     username: "@lo"
 }
 
@@ -135,3 +135,54 @@ FourthOfJulyPost['likes'] = 15;
 FourthOfJulyPost.comments = ['ok...'];
 FourthOfJulyPost.caption = 'Writing code on the 4th';
 console.log(FourthOfJulyPost);
+
+
+//functions
+
+function sayHello() {
+    //write my code
+    //write your logic
+    console.log("Hello");
+}
+
+sayHello();
+
+
+
+const sayHelloAgain = function () {
+    console.log("Hello Again");
+}
+
+sayHelloAgain();
+
+
+const sayHelloFinal = () => {
+    console.log ("Adios");
+}
+
+sayHelloFinal();
+
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const otherNumbers = [5, 10, 15, 20, 25, 30];
+
+// function printNumbers(numbers) {
+//     console.log(numbers);
+// }
+
+function printNumbers(array) {
+    for (let i = 0; i < array.length; i++) {
+        let num = array[i];
+
+        if (num < 50) {
+            console.log("This number is less than 50: " + num) 
+        } else {
+            console.log("This nnumber is greater than 50: " + num); 
+        }
+
+    }
+}//expressions, objects, you wanna have semi colons there
+
+
+//printNumbers(numbers);
+printNumbers(otherNumbers);
