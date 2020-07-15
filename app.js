@@ -67,3 +67,13 @@ for (var i = 0; i < teams.length; i++) {
     console.log(single);
 }
 
+
+//make an array
+//use a for loop to iterate through your array 
+//print each element in your array
+
+var emotions = ["happy", "sad", "frustrated", "excited", "disappointed", "neutral"];
+for (var i = 0; i < emotions.length; i++) {
+    var feelings = emotions[i];
+    console.log(feelings);
+}
