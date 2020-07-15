@@ -163,7 +163,7 @@ const sayHelloFinal = () => {
 sayHelloFinal();
 
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 const otherNumbers = [5, 10, 15, 20, 25, 30];
 
 // function printNumbers(numbers) {
@@ -186,3 +186,18 @@ function printNumbers(array) {
 
 //printNumbers(numbers);
 printNumbers(otherNumbers);
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //shortcut: option up and down arrow 
+function addNumbers (array) {
+    let result = 0; //expression
+
+    for (i = 0; i < array.length; i++) {  //logic 
+        let num = array[i]; //1, 2, 3, 4, 5...
+        
+        result += num; //1, 3, 6, 10, 15 ...
+   }        
+   return result;
+   
+}
+
+addNumbers(numbers);
