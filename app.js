@@ -121,3 +121,17 @@ const stayInMyHead = {
     picture: "https://instagram.com/lulu/...",
     shares: 5
 }
+
+
+let sentence = "I'm cool";
+let sentenceTwo = "I'm cool too";
+
+const fourthOfJulyPost = {
+    username: "@lo"
+}
+
+FourthOfJulyPost.picture = 'https://instagram.com/.....';
+FourthOfJulyPost['likes'] = 15;
+FourthOfJulyPost.comments = ['ok...'];
+FourthOfJulyPost.caption = 'Writing code on the 4th';
+console.log(FourthOfJulyPost);
