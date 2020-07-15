@@ -77,3 +77,47 @@ for (var i = 0; i < emotions.length; i++) {
     var feelings = emotions[i];
     console.log(feelings);
 }
+
+
+//objects
+//key: value pairs
+
+const alpha = {
+    fullName: "Alpha Martinez",
+    age: 23,
+    myLocation: "Brooklyn",
+    placesTraveled: ["Kentucky", "Ohio", "Mexico", "Poland"]
+}
+
+console.log(alpha);
+
+//myLocation
+
+console.log(alpha.placesTraveled[2]);
+
+//example of how instagram data would be under
+const myReallyCoolPost = {
+    username: "@luna",
+    likes: 20,
+    comments: ["that looks pretty cool", "ayyyy i see you", "okay hacker!", "so proud of you!"],
+    caption: "Day 3 of SEI",
+    picture: "https://instagram.com/luna/...",
+    shares: 3
+}
+
+console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = "NY";
+console.log(myReallyCoolPost);
+
+//instagram post
+
+
+const stayInMyHead = {
+    username: "@lulu",
+    likes: 30,
+    comments: ["lol you got this girls", "i see you hacker", "teach me!"],
+    caption: "Day 3 of SEI with Javascript",
+    picture: "https://instagram.com/lulu/...",
+    shares: 5
+}
