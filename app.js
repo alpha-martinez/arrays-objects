@@ -28,3 +28,21 @@ while (myOtherNumber < numberTwo){
     console.log(myOtherNumber);//10
     myOtherNumber += 1; //11, 12, 13, 14, 15, 16
 }
+
+var alphaFav = 5;
+var tom = 15;
+
+while (alphaFav < tom ){
+    console.log(alphaFav); //5
+    alphaFav += 1; //5,6,7,8
+}
+
+
+var mingo = 10;
+var day = 35;
+ 
+while (mingo < day){
+    console.log(mingo);
+    mingo += 1;//
+}
+
