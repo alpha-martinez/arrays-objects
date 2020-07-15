@@ -200,4 +200,4 @@ function addNumbers (array) {
    
 }
 
-addNumbers(numbers);
+console.log (addNumbers(numbers));
